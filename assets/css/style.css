@@ -35,10 +35,11 @@
 }
 
 body {
-    color: #68616D;
+    color: #000000;
     font-size: 17px;
     line-height: 1.8;
     font-family: 'Roboto', sans-serif;
+    background:#FFE6E6 ;
 }
 
 h1,
@@ -47,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1F0039;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -132,7 +133,7 @@ button:focus {
     padding: 19px 36px;
     font-size: 18px;
     font-weight: 500;
-    background: #FC5546;
+    background: #e93f36;
     color: #FFFFFF;
     border-radius: 5px;
     text-transform: capitalize;
@@ -145,8 +146,8 @@ button:focus {
 }
 
 .theme-btn:hover {
-    border-color: #FC5546;
-    color: #FC5546;
+    border-color: #FFE6E6;
+    color: #FFE6E6;
     background: transparent;
 }
 
@@ -187,7 +188,7 @@ button:focus {
     margin-top: 100px;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/hero/hero-bg.jpg);
+    background-image: url(../images/cta-bg.jpg);
 }
 
 .hero-section::before {
@@ -198,7 +199,7 @@ button:focus {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: .65;
+    opacity: 0.0;
     background: #1f0039;
 }
 
@@ -206,7 +207,7 @@ button:focus {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 27%;
+    width: 100%;
     z-index: -2;
 }
 
@@ -215,7 +216,7 @@ button:focus {
 }
 
 .hero-content h1 {
-    color: #FFFFFF;
+    color: #FFE6E6;
     font-size: 55px;
     line-height: 1.25;
     margin-bottom: 20px;
@@ -366,7 +367,7 @@ button:focus {
 
 .experience-years h1 {
     font-size: 65px;
-    color: #FC5546;
+    color: #e93f36;
 }
 
 .experience-content {
@@ -414,7 +415,7 @@ button:focus {
     padding: 6px 7px;
     background: #FFEFED;
     font-size: 20px;
-    color: #FC5546;
+    color: #e93f36;
     font-weight: 600;
     margin-right: 15px;
 }
@@ -496,7 +497,7 @@ button:focus {
     opacity: 0;
     z-index: -1;
     transition: all .3s;
-    background: linear-gradient(to right, #FC5546, #FFFFFF);
+    background: linear-gradient(to right, #e93f36, #FFFFFF);
 }
 
 .project-content:hover::after {
@@ -511,7 +512,7 @@ button:focus {
 
 .project-icon i {
     font-size: 18px;
-    color: #FC5546;
+    color: #e93f36;
 }
 
 .project-content h5 {
@@ -633,7 +634,7 @@ button:focus {
 }
 
 .testimonial-section .slick-dots li.slick-active button:before {
-    background: #FC5546;
+    background: #e93f36;
 }
 
 .testimonial-section .slick-dots li button:after {
@@ -712,7 +713,7 @@ button:focus {
 }
 
 .contact-withus-num .contact-number:hover {
-    color: #FC5546;
+    color: #e93f36;
 }
 
 
@@ -742,7 +743,7 @@ button:focus {
 }
 
 .blog-content .date {
-    color: #FC5546;
+    color: #e93f36;
     font-weight: 600;
 }
 
@@ -757,7 +758,7 @@ button:focus {
 }
 
 .blog-content h5 a:hover {
-    color: #FC5546;
+    color: #e93f36;
 }
 
 .blog-content p {
@@ -801,7 +802,7 @@ button:focus {
 
 .page-breadcrumb .breadcrumb {
     max-width: 200px;
-    background: #FC5546;
+    background: #e93f36;
     border-radius: 5px;
     margin-bottom: 0;
     padding: 14px 25px;
@@ -865,7 +866,7 @@ button:focus {
     width: 100px;
     height: 100px;
     z-index: -1;
-    background: #FC5546;
+    background: #e93f36;
     clip-path: polygon(100% 0, 0 100%, 0 0);
 }
 
@@ -932,7 +933,7 @@ button:focus {
     line-height: 90px;
     border-radius: 50%;
     text-align: center;
-    background: #FC5546;
+    background: #e93f36;
     display: inline-block;
 }
 
@@ -961,7 +962,7 @@ button:focus {
 }
 
 .about-choose-us-right h2 span {
-    color: #FC5546;
+    color: #e93f36;
 }
 
 .about-choose-us-right p {
@@ -1011,7 +1012,7 @@ button:focus {
     left: 31.33%;
     width: 1px;
     height: 100px;
-    background: #FC5546;
+    background: #e93f36;
     transform: translateY(-50%);
 }
 
@@ -1102,7 +1103,7 @@ button:focus {
 
 .service-widget ul li a:hover {
     color: #FFFFFF;
-    background: #FC5546;
+    background: #e93f36;
 }
 
 .service-video-widget {
@@ -1135,7 +1136,7 @@ button:focus {
 }
 
 .project-text a {
-    color: #FC5546;
+    color: #e93f36;
     font-weight: 700;
     font-size: 30px;
 }
@@ -1225,7 +1226,7 @@ button:focus {
     width: 75px;
     height: 75px;
     z-index: -1;
-    background: #FC5546;
+    background: #e93f36;
     clip-path: polygon(100% 0, 0 100%, 0 0);
 }
 
@@ -1273,7 +1274,7 @@ button:focus {
 }
 
 .client-content li span {
-    color: #FC5546;
+    color: #e93f36;
     font-weight: 700;
     width: 75px;
     margin-right: 5px;
