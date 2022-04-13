@@ -148,7 +148,7 @@ button:focus {
 .theme-btn:hover {
     border-color: #FFE6E6;
     color: #FFE6E6;
-    background: transparent;
+    background: #FF2626;
 }
 
 .theme-btn:focus {
