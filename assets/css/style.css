@@ -133,7 +133,7 @@ button:focus {
     padding: 19px 36px;
     font-size: 18px;
     font-weight: 500;
-    background: #e93f36;
+    background: #FF2626;
     color: #FFFFFF;
     border-radius: 5px;
     text-transform: capitalize;
@@ -188,7 +188,7 @@ button:focus {
     margin-top: 100px;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/cta-bg.jpg);
+    background-image: url(../images/fondopantallaprincipal.jpeg);
 }
 
 .hero-section::before {
@@ -248,7 +248,7 @@ button:focus {
     content: "";
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #FC5546, #FFFFFF);
+    background: linear-gradient(to right, #FF2626, #FFFFFF);
     left: 0;
     top: 0;
     opacity: 0;
@@ -1144,6 +1144,7 @@ button:focus {
 /* Service Right Content */
 .service-details-content {
     margin-left: -30px;
+    text-align: center;
 }
 
 .service-details-image {
@@ -1876,13 +1877,13 @@ button:focus {
     height: 50px;
     right: 25px;
     bottom: 25px;
-    color: white;
+    color: #FFE6E6;
     display: none;
     cursor: pointer;
     position: fixed;
     font-size: 18px;
     border-radius: 50%;
-    background: #FC5546;
+    background: #FF2626;
     animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite;
 }
